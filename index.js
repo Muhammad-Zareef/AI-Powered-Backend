@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
-    origin: "*",
+    origin: "https://ai-powered-frontend-eight.vercel.app",
     credentials: true,
 }));
 
